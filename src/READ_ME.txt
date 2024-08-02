@@ -5,8 +5,6 @@
 
 
 from Camera_Rig import cam_ui
-reload(cam_ui)
-
 cam_ui.show_ui()
 
 
@@ -14,7 +12,6 @@ cam_ui.show_ui()
 
 import importlib
 from Camera_Rig import cam_ui
-importlib.reload(cam_ui)
 
 cam_ui.show_ui()
 
